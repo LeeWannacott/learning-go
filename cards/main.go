@@ -14,10 +14,11 @@ func main() {
 	// hand.print()
 	// remainingCards.print()
 	// cards.print()
-	cards := newDeck()
-	cards.saveToFile("my_cards")
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
 	// fmt.Println(cards.toString())
-
+	cards := newDeckFromFile("my_cards")
+	cards.print()
 	// for i, card := range cards {
 	// fmt.Println(i, card)
 	// }
